@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container-days {
+  display: flex;
+}
+.block-day {
+  text-align: center;
+  border-right: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
+}
+.day {
+  display: inline-block;
+  padding: 3px 7px 20px 7px;
+}
+.image {
+  width: 60px;
+  height: 60px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 16px;
+}
